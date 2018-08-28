@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?tnaufb');
+	src:url('fonts/icomoon.eot?#iefixtnaufb') format('embedded-opentype'),
+		url('fonts/icomoon.woff?tnaufb') format('woff'),
+		url('fonts/icomoon.ttf?tnaufb') format('truetype'),
+		url('fonts/icomoon.svg?tnaufb#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-landforsale:before {
+	content: "\e60e";
+}
+.icon-housesearch:before {
+	content: "\e600";
+}
+.icon-home-family-heart:before {
+	content: "\e621";
+}
+.icon-hauntedhouse:before {
+	content: "\e624";
+}
+.icon-recycle:before {
+	content: "\e622";
+}
+.icon-calendar4:before {
+	content: "\e628";
+}
+.icon-image:before {
+	content: "\e604";
+}
+.icon-lamp:before {
+	content: "\e605";
+}
+.icon-ruler:before {
+	content: "\e623";
+}
+.icon-paint:before {
+	content: "\e606";
+}
+.icon-comments:before {
+	content: "\e607";
+}
+.icon-pig:before {
+	content: "\e608";
+}
+.icon-info2:before {
+	content: "\e609";
+}
+.icon-info3:before {
+	content: "\e60a";
+}
+.icon-atom:before {
+	content: "\e60b";
+}
+.icon-yingyang:before {
+	content: "\e60c";
+}
+.icon-buddha:before {
+	content: "\e61a";
+}
+.icon-news:before {
+	content: "\e62b";
+}
+.icon-star:before {
+	content: "\e601";
+}
+.icon-briefcase:before {
+	content: "\f0d3";
+}
+.icon-broadcast:before {
+	content: "\f048";
+}
+.icon-comment-discussion:before {
+	content: "\f04f";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-info:before {
+	content: "\f059";
+}
+.icon-organization:before {
+	content: "\f037";
+}
+.icon-person:before {
+	content: "\f018";
+}
+.icon-plug:before {
+	content: "\f0d4";
+}
+.icon-podium:before {
+	content: "\f0af";
+}
+.icon-pulse:before {
+	content: "\f085";
+}
+.icon-radio-tower:before {
+	content: "\f030";
+}
+.icon-telescope:before {
+	content: "\f088";
+}
+.icon-Tree:before {
+	content: "\e602";
+}
+.icon-earth:before {
+	content: "\e626";
+}
+.icon-googleplus:before {
+	content: "\e603";
+}
+.icon-home2:before {
+	content: "\e627";
+}
+.icon-news2:before {
+	content: "\e633";
+}
+.icon-home-outline:before {
+	content: "\e60d";
+}
+.icon-nature:before {
+	content: "\e60f";
+}
+.icon-nature-people:before {
+	content: "\e610";
+}
+.icon-wb-incandescent:before {
+	content: "\e611";
+}
+.icon-directions-car:before {
+	content: "\e612";
+}
+.icon-local-florist:before {
+	content: "\e630";
+}
+.icon-local-gas-station:before {
+	content: "\e613";
+}
+.icon-local-hotel:before {
+	content: "\e614";
+}
+.icon-eye:before {
+	content: "\f06e";
+}
+.icon-comments2:before {
+	content: "\f086";
+}
+.icon-user-md:before {
+	content: "\f0f0";
+}
+.icon-stethoscope:before {
+	content: "\f0f1";
+}
+.icon-pagelines:before {
+	content: "\f18c";
+}
+.icon-wechat:before {
+	content: "\f1d7";
+}
+.icon-feather:before {
+	content: "\e61b";
+}
+.icon-star4:before {
+	content: "\e61c";
+}
+.icon-air:before {
+	content: "\e61e";
+}
+.icon-info4:before {
+	content: "\e61f";
+}
+.icon-info5:before {
+	content: "\e620";
+}

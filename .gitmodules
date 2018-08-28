@@ -1,0 +1,3 @@
+[submodule "blog-hexo/themes/phase-green"]
+	path = blog-hexo/themes/phase-green
+	url = git@github.com:guiohm/hexo-theme-phase-green.git
