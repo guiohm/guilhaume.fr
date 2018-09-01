@@ -6,11 +6,12 @@ var Chromo = (function(){
         "#E03658", // ecarlate
         "#DB3939", // red
         "#f39c12", // orange
-        "#CDCD22", // yellow
-        "#83CF31", // citron vert
+        // "#CDCD22", // yellow
+        // "#83CF31", // citron vert
         "#149414", // vert
-        "#29C09C", // turquoise
-        "#1CBEBE", // cyan
+        "#27ae55", // site default color
+        // "#29C09C", // turquoise
+        // "#1CBEBE", // cyan
         "#0082c8", // indigo
         "#3A3AD1", // bleu
         "#B231DB", // violet
@@ -28,7 +29,7 @@ var Chromo = (function(){
     // }
 
     function activateColorChange(colorId) {
-        var i = colorId || 5;
+        var i = colorId || 3;
         $("body").css("transition", "all 7s ease-in-out");
         if (colorId) {
             $("body").css("background", twelve_colors[i]);
@@ -57,13 +58,18 @@ var Chromo = (function(){
         if (colorChangePID) {
             stopColorChange();
         } else {
-            activateColorChange(6);
+            activateColorChange(5);
         }
+    }
+
+    function isStopped() {
+        return colorChangePID === undefined;
     }
 
     return {
         'activateColorChange': activateColorChange,
-        'toggleColorChange': toggleColorChange
+        'toggleColorChange': toggleColorChange,
+        'isStopped': isStopped,
     }
 })();
 
@@ -110,14 +116,16 @@ $(document).ready(function(){
                 $masterColorSwitchButton.text(buttonText[0]);
             }
         }
-
         Chromo.toggleColorChange();
     }
 
     $('.color_change_button_label').click(toggleColorChangeTrigger);
     $('.chromo-icon').click(toggleColorChangeTrigger);
     $colorChangeToggleButtons.click(toggleColorChangeTrigger);
-
+    // Auto-start after 30s
+    setTimeout(() => {
+        if (Chromo.isStopped()) toggleColorChangeTrigger();
+    }, 30000);
 
     // Soumission Livre d'Or
     $('#livredor_submit').click(function(e) {

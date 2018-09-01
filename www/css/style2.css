@@ -2,6 +2,10 @@
  * Globals
  */
 
+ ::selection {
+  background: lightgreen;
+}
+
 /* Links */
 a,
 a:focus,
@@ -92,8 +96,25 @@ p {
   line-height: 1.6em;
 }
 
+p.details {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+p.pitch {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
 iframe {
   border: none;
+}
+
+ul.details > li {
+  font-size: 1.2em;
 }
 
 .navbar-inverse {
@@ -131,6 +152,10 @@ section {
 }
 section:first-of-type {
   padding-top: 144px;
+}
+
+section a:hover {
+  text-decoration: underline;
 }
 
 .site-wrapper {
@@ -536,6 +561,12 @@ img.center {
     font-weight: 900;
     line-height: 1;
   }
+  .event-list > li time > .year {
+    display: block;
+    font-size: 12pt;
+    font-weight: 600;
+    line-height: 1;
+  }
   .event-list > li > a > img {
     width: 100%;
   }
@@ -583,7 +614,7 @@ img.center {
     .event-list > li > time,
     .event-list > li > a > img {
       float: left;
-      width: 120px;
+      width: 144px;
       padding: 0px;
       margin: 0px;
     }
